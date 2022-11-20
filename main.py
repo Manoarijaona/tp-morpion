@@ -1,4 +1,5 @@
 class DrawMorpion:
+
     def __init__(self):
         self.board = ["-", "-", "-",
                       "-", "-", "-",
