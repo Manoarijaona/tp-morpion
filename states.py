@@ -7,7 +7,7 @@ class CaseStates:
         self.resetStates()
 
     def resetStates(self):
-        for i in range(8):
+        for i in range(1, 10):
             self.morpionStates.append(Case.isEmpty)
 
     def updateState(self, case: int, state: Case):

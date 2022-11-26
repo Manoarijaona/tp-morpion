@@ -1,6 +1,7 @@
 from case import Case
 from states import CaseStates
 
+
 class Board:
     def __init__(self):
         return
@@ -22,4 +23,5 @@ class Board:
         print()
 
 board = Board()
-board.draw([Case.isEmpty,Case.isEmpty,Case.isEmpty,Case.isEmpty,Case.isEmpty,Case.isEmpty,Case.isEmpty,Case.isEmpty,Case.isEmpty,])
+caseStates = CaseStates()
+board.draw(caseStates.getCaseStates())
