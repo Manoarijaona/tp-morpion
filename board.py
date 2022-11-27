@@ -22,6 +22,7 @@ class Board:
                 print('-----')
         print()
 
+
 board = Board()
 caseStates = CaseStates()
 board.draw(caseStates.getCaseStates())
